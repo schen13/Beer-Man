@@ -2,13 +2,13 @@
 
 ### Overview
 
-This rendition of Pacman will be a browser-based game made with Javascript and HTML Canvas. The user will guide Pacman with the arrow keys to collect all food on the map without colliding with any ghosts. Power-ups will allow Pacman to temporarily be able to eat the ghosts for points and remove them from play for a short period of time. Each eating and death event will trigger a sound effect.
+This rendition of Pac-man, called Beer-man will be a browser-based game made with Javascript and HTML Canvas. The user will guide Beer-man with the arrow keys to collect all beer on the map without colliding with any ghosts. Each beer he drinks will slow him down. Energy drink power-ups will allow Pacman to temporarily sober up, gaining the ability to eat ghosts for points and remove them from play for a short period of time. Each drinking and death event will trigger a sound effect.
 
 ### MVP List
 Users should be able to:
-- [ ] Pick a custom color Pacman
+- [ ] Pick a custom color Beerman
 - [ ] Enjoy bug-free navigation of the map
-- [ ] Hear eating and dying sounds as those events unfold
+- [ ] Hear drinking and dying sounds as those events unfold
 - [ ] Start, pause, and reset the game at will
 - [ ] Understand and achieve clear win/lose conditions
 - [ ] View game instructions, scoring, and lives left at all times
@@ -17,7 +17,7 @@ Users should be able to:
 
 ![Basic Layout](/game_layout.png)
 
-Game grid should be centered. Simple instructions will be on the right. Pause and play will be on the bottom. A color wheel will be displayed at the beginning as a prompt to the user. 
+Game grid should be centered. Simple instructions will be on the right. Pause and play will be on the bottom. A color wheel will be displayed at the beginning as a prompt to the user.
 
 ### Architecture and Technologies
 
@@ -28,8 +28,11 @@ This project will use the following:
 * Web Audio API for well-timed sound effects
 
 Scripts: 
-`pacman.js`: handle physics and user arrow input
-`ghost.js`: handle basic logic decisions to chase pacman
+`beerman.js`: entry file
+`ghost.js`: handle physics and basic logic decisions to chase Beerman
+`player.js`: handle beerman player's physics
+`game.js`: handle overall game mechanics
+`game_view.js`: handle key listeners and canvas
 `audio.js`: trigger sound effects on eating or dying
 
 ### Implementation Timeline
