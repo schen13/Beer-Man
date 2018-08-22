@@ -1,12 +1,11 @@
-## Pacman
+## Beer-Man
 
 ### Overview
 
-This rendition of Pac-man, called Beer-man will be a browser-based game made with Javascript and HTML Canvas. The user will guide Beer-man with the arrow keys to collect all beer on the map without colliding with any ghosts. Each beer he drinks will slow him down. Energy drink power-ups will allow Pacman to temporarily sober up, gaining the ability to eat ghosts for points and remove them from play for a short period of time. Each drinking and death event will trigger a sound effect.
+This rendition of Pac-Man, called Beer-Man, will be a browser-based game made with Javascript and HTML Canvas. The user will guide Beer-Man with the arrow keys to collect all beer on the map without colliding with any ghosts. The more beer he drinks, the slower he will become. Coffee power-ups will allow Beer-Man to gain a sobering boost of speed and wisdom, restoring his original velocity and gaining the ability to destroy ghosts for points. Each drinking and death event will trigger a sound effect with Web Audio API.
 
 ### MVP List
 Users should be able to:
-- [ ] Pick a custom color Beerman
 - [ ] Enjoy bug-free navigation of the map
 - [ ] Hear drinking and dying sounds as those events unfold
 - [ ] Start, pause, and reset the game at will
@@ -42,16 +41,17 @@ Scripts:
 - [ ] Setup modules, webpack, entry file
 - [ ] Write entry file skeleton
 - [ ] Create board
-- [ ] Implement color wheel picker for Pacman
-- [ ] Ensure sound is properly synced through Web Audio API
-- [ ] Solidify Pacman physics (moving, turning)
+- [ ] Solidify Beer-Man physics (moving, turning)
 #### Day 2:
-- [ ] Work on ghost physics
-- [ ] Render Pacman/ghost collisions and sounds
-- [ ] Update board with every eating/colliding event
+- [ ] Work on ghost AI
+- [ ] Fill board with beer and coffee
+- [ ] Implement collisions logic for Beer-Man, ghosts, drinks, and walls
+- [ ] Update board with every drinking/colliding event
 #### Day 3:
+- [ ] Finish ghost AI
 - [ ] Implement win/lose conditions
 - [ ] Build start and stop functionality
+- [ ] Ensure sound is properly synced through Web Audio API
 #### Day 4: 
 - [ ] Make sure user can both win and lose
 - [ ] Make sure user can keep playing more rounds if so desired
