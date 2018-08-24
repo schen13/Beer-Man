@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+
+.game-container {
+  margin: 0 auto;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
+
+/* Inspired by https://codepen.io/paulnoble/pen/gaPaoYhttps://codepen.io/paulnoble/pen/gaPaoY */
+.text-container {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-shadow: -1px 0 0 #fdff2a,
+    -1px 0 0 #df4a42,
+    1px 0 0 #91fcfe,
+    1px 0 0 #4405fc;
+  color: white;
+  width: 400px;
+}
