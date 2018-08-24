@@ -26,3 +26,24 @@ canvas {
   color: white;
   width: 400px;
 }
+
+.links {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
+
+a {
+  padding: 10px;
+}
+
+i {
+  font-size: 30px;
+  color: white;
+}
+
+i:hover {
+  filter: brightness(80%);
+}
