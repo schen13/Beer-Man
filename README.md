@@ -124,3 +124,8 @@ Scripts:
 - [x] Style canvas
 - [x] Setup scoreboard
 
+### Future Features
+* Improve ghost AI so it doesn't get stuck at corners
+* Fix board rendering when restarting after win/loss
+* Implement sound effects (have the files, code not working)
+* Add more levels
